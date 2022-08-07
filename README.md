@@ -1,13 +1,20 @@
 # Google Books API Search Engine
 
-## Outline
+## Purpose 
 
-This project will require you to use both DOM manipulation and Asynchronous programming.
-The aim is for the user to be able to search for a book inside the Google Books database and to be able to get more details about a certain title.
+The purpose of this application is to provide a selection of books depending on what the user is searching for.
+
+
+## Tech stack
+- **React**
+- **HTML** 
+- **SCSS** 
+
+
 
 ## MVP
 
-Create a page that allows users to search for books
+Create a page that allows users to
 Page should include the following:
 
 -   Header section introducing the page

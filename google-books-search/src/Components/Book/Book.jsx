@@ -10,11 +10,9 @@ const Book = ({ img, title, author, description }) => {
         <div className={styles.book}>
             <img className={styles.book__img} src={img} alt="" />
             <div className={styles.book__box}>
-                <h2 className={styles.book__box__title}>Title: {title} </h2>
-                <h3 className={styles.book__box__author}>Author: {author} </h3>
-                <p className={styles.book__box__desc}>
-                    Description: {description}{' '}
-                </p>
+                <h2 className={styles.book__box__title}>{title} </h2>
+                <h3 className={styles.book__box__author}>{author} </h3>
+                <p className={styles.book__box__desc}>{description} </p>
             </div>
         </div>
     );

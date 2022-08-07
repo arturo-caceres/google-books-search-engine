@@ -1,7 +1,7 @@
 const fetchData = async (parameter) => {
-    const api = 'https://www.googleapis.com/books/v1/volumes';
-    let query = `?q=${parameter}`;
-    const response = await fetch(`${api}${query}`);
+    const api = 'https://www.googleapis.com/books/v1/volumes?q=';
+    let queryString = parameter;
+    const response = await fetch(`${api}${queryString}`);
     const data = await response.json();
     return data;
 };

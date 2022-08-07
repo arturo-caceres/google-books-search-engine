@@ -1,5 +1,15 @@
+@import './Partials/palette';
+
 .App {
     text-align: center;
+}
+
+.main__box {
+    max-width: 1280px;
+    display: flex;
+    margin: 0 auto 50px;
+    flex-wrap: wrap;
+    justify-content: center;
 }
 
 .App-logo {

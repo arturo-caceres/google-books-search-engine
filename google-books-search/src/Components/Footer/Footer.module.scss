@@ -1,6 +1,9 @@
+@import '../../Partials/palette';
+
 .footer {
     font-size: small;
     text-align: center;
-    background-color: lightcoral;
+    background-color: $quinary-color;
+    color: $primary-color;
     padding-bottom: 5px;
 }

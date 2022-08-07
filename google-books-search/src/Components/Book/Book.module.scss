@@ -1,0 +1,10 @@
+@import '../../Partials/palette';
+
+.book {
+    height: 200px;
+    display: flex;
+    padding: 10px;
+    border-radius: 5px;
+    transition: 0.5s;
+    background-color: rgba(0, 0, 0, 0.041);
+}
